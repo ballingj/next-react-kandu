@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-> The following codes are from Udemy lesson Next.js and React 18 Bootcamp
+> The following codes are from Udemy lesson Next.js and React 18 Bootcamp.
 > Lesson ending:  6. Link to pages with Next/Link } Grid Item
 
 
