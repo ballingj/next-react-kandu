@@ -11,7 +11,7 @@ const ranga = Ranga({
 
 const robotoCondensed = Roboto_Condensed({
     subsets: ['latin'],
-    weight: '700',
+    weight: '400',
     variable: '--font-roboto-condensed'
 })
 
