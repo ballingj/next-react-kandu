@@ -2,8 +2,6 @@
 
 import { useState, useEffect } from 'react';
 
-
-
 export default function Followers() {
     const [goalString, setGoalString] = useState('?/?');
 
