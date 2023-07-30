@@ -12,13 +12,14 @@ export default function Followers() {
         const json = await res.json();
         console.log(`json`, json);
         if (json && json.artists && json.artists.items && json.artists.items.length) {
-            const followers = json.artists.items[0].followers.total;
-            setGoalString(`${followers}/?`);
+            return json.artists.items[0].followers.total;
+            
         }
     }
 
     useEffect(() => {
-        getFollowers();
+        const followers = getFollowers();
+        setGoalString(`${followers}/?`);
     }, []);
 
     return (
